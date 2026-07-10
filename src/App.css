@@ -1,0 +1,53 @@
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin-bottom: 4px;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: gray;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.empty {
+  color: gray;
+  font-style: italic;
+}
